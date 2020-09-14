@@ -13,3 +13,19 @@ print(is_prime(2))
 
 
 #apply own comments
+
+
+
+
+# print_primes 
+
+def print_Prime(num):
+    list1=[]
+    if is_Prime(num):
+        for i in range(2,num+1):
+            if is_Prime(i):
+                list1.append(i)
+        return list1
+    return list1
+result2=print_Prime(12)
+print(result2)
